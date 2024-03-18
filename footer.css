@@ -1,0 +1,122 @@
+footer {
+    background: #CC5520;
+    height: 100%;
+    flex-direction: column;
+}
+
+.footer-top {
+    display: flex;
+}
+
+.logo-footer {
+    width: 126.618px;
+    height: 22.107px;
+    margin: 50px 20px;
+    cursor: pointer;
+}
+
+.footer-top {
+    gap: 160px;
+}
+
+.footer-top h4{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 55px;
+}
+
+.footer-top p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.column1, .column2, .column3{
+    width: 100%;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.subscribe {
+    margin: 0px 10px 0 20px;
+}
+
+#email {
+    width: 268px;
+    height: 50px;
+    border-radius: 3px;
+    background: #FFF;
+    border-color: transparent;
+    margin-right: 10px;
+}
+
+button {
+    width: 116px;
+    height: 50px;
+    border-radius: 3px;
+    background: #FFF;
+    color: #CC5520;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border-color: transparent;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+    padding-left: 15px;
+}
+
+.footer-bottom {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+    border-top: 1px solid #FFF;
+    margin-top: 14px;
+}
+
+.footer-txt{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 10.41px;
+    font-weight: 400;
+    margin-bottom: 22px;
+    margin-left: 124px;
+}
+
+.footer-img {
+    display: flex;
+    margin-right: 125px;
+    margin-bottom: 22px;
+}
+.social-icon {
+    margin-left: 15px;
+    height: 16px;
+    cursor: pointer;
+}
+.footer-bottom-mobile {
+    display: none;
+}
